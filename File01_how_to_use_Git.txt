@@ -1,0 +1,20 @@
+1. How to initialize Git
+cd (location of folder)
+git config --global user.name "programmer's name"
+git config --global user.email "programmer_name@email.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+
+2. How to add files to Git
+
+git add .
+git commit -am "what did you change"
+
+you may put the link from github for the first time to link the githut repository.
+ 
+git push
+
+3. How to roll back to the last version
+
+git checkout .
