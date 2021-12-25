@@ -11,8 +11,13 @@ git init
 git add .
 git commit -am "what did you change"
 
-you may put the link from github for the first time to link the githut repository.
- 
+You may put the link from github for the first time to link the githut repository.
+example)
+git remote add origin https://github.com/ID/repository_name.git
+git branch -M main
+git push -u origin main
+
+If you are already linked the repository, just run below command. 
 git push
 
 3. How to roll back to the last version
