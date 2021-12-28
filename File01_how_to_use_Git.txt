@@ -62,4 +62,8 @@ git push origin --delete BRANCH_NAME (remote)
 git push -u origin BRANCH_NAME (for the first time)
 git push (if it is not for the first time)
 
+11. merge
+git merge BRANCH_NAME (do this in main/master branch)
+
+12. In case of confliction, edit and commit
 
